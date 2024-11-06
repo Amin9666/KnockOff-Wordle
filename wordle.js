@@ -1,11 +1,8 @@
-// Importing React and specific hooks from React
 const React = require('react');
 const { useState, useEffect } = require('react');
 
-// Importing `AlertCircle` from `lucide-react`
 const { AlertCircle } = require('lucide-react');
 
-// Importing `Alert` and `AlertDescription` from the custom path
 const { Alert, AlertDescription } = require('@/components/ui/alert');
 
 const WORD_LIST = ['REACT', 'CODES', 'LOGIC', 'GAMMA', 'DELTA', 'ALPHA', 'BREAK', 'STACK', 'QUEUE'];
